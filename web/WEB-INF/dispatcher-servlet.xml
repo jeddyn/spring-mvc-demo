@@ -10,9 +10,10 @@
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <mvc:annotation-driven/>
+
 
     <!-- Step 4: Add support for conversion, formatting and validation support -->
-    <mvc:annotation-driven/>
 
 
     <context:component-scan base-package="pl.zar.springdemo"/>

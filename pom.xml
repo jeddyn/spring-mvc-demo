@@ -29,7 +29,11 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>6.0.7.Final</version>
+            <version>4.3.1.Final</version> </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.0.0.GA</version>
         </dependency>
 
         <!-- Servlet, JSP and JSTL support -->
@@ -50,6 +54,9 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+
+
+
 
         <!-- to compensate for java 9 not including jaxb -->
 
